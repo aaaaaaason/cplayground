@@ -1,6 +1,6 @@
 OUT = bin
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -std=c99
 AR = ar
 ARFLAGS = -rcs
 LDFLAGS = -lplayground
